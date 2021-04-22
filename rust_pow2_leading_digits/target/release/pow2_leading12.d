@@ -1,0 +1,1 @@
+/Users/trevorschirra/Documents/GitHub/rosetta-code-contributions/rust_pow2_leading_digits/target/release/pow2_leading12: /Users/trevorschirra/Documents/GitHub/rosetta-code-contributions/rust_pow2_leading_digits/src/main.rs

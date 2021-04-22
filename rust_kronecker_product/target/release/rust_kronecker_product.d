@@ -1,0 +1,1 @@
+/Users/trevorschirra/Documents/GitHub/rosetta-code-contributions/rust_kronecker_product/target/release/rust_kronecker_product: /Users/trevorschirra/Documents/GitHub/rosetta-code-contributions/rust_kronecker_product/src/main.rs

@@ -1,0 +1,1 @@
+/Users/trevorschirra/Documents/GitHub/rosetta-code-contributions/rust_determinant_permanent/target/release/rust_determinant_permanent: /Users/trevorschirra/Documents/GitHub/rosetta-code-contributions/rust_determinant_permanent/src/main.rs
