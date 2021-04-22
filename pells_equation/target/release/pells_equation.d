@@ -1,0 +1,1 @@
+/Users/trevorschirra/Documents/GitHub/rosetta-code-contributions/pells_equation/target/release/pells_equation: /Users/trevorschirra/Documents/GitHub/rosetta-code-contributions/pells_equation/src/main.rs /Users/trevorschirra/Documents/GitHub/rosetta-code-contributions/pells_equation/target/release/build/num-bigint-919bfdf4e31e950b/out/radix_bases.rs build.rs

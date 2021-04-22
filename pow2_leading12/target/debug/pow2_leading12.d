@@ -1,0 +1,1 @@
+/Users/trevorschirra/Documents/GitHub/rosetta-code-contributions/pow2_leading12/target/debug/pow2_leading12: /Users/trevorschirra/Documents/GitHub/rosetta-code-contributions/pow2_leading12/src/main.rs
