@@ -1,6 +1,6 @@
 use num_bigint::{ToBigInt, BigInt};
 use num_traits::{Zero, One};
-//use std::mem::replace if you want this to be more efficient
+//use std::mem::replace in the loop if you want this to be more efficient
 
 fn main() {
     test(61u64);
