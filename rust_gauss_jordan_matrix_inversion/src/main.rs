@@ -22,11 +22,7 @@ fn main() {
     println!("\nInverse of Matrix B:\n");
     print_matrix(&mut matrix_inverse(rref_b));
 }
-fn print_matrix(mat: &mut Vec<Vec<f64>>) {
-    for row in 0..mat.len(){
-        println!("{:?}", mat[row]);
-    }
-}
+
 //Begin Matrix Inversion
 fn matrix_inverse(matrix: &mut Vec<Vec<f64>>) -> Vec<Vec<f64>>{
     let len = matrix.len();
@@ -108,4 +104,10 @@ fn zero_matrix(rows: usize, cols: usize) -> Vec<Vec<f64>> {
         matrix.push(col);
     }
     matrix
+}
+
+fn print_matrix(mat: &mut Vec<Vec<f64>>) {
+    for row in 0..mat.len(){
+        println!("{:?}", mat[row]);
+    }
 }
