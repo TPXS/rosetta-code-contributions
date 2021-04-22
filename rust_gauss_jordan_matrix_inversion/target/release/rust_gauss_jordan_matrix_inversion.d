@@ -1,0 +1,1 @@
+/Users/trevorschirra/Documents/GitHub/rosetta-code-contributions/rust_gauss_jordan_matrix_inversion/target/release/rust_gauss_jordan_matrix_inversion: /Users/trevorschirra/Documents/GitHub/rosetta-code-contributions/rust_gauss_jordan_matrix_inversion/src/main.rs
