@@ -1,0 +1,10 @@
+/Users/trevorschirra/Documents/GitHub/rosetta-code-contributions/rust_nth_fibonacci_number/target/rls/debug/deps/num_bigint-4723b13c808c54b2.rmeta: /Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/lib.rs /Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/macros.rs /Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/bigint.rs /Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/biguint.rs /Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/algorithms.rs /Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/monty.rs
+
+/Users/trevorschirra/Documents/GitHub/rosetta-code-contributions/rust_nth_fibonacci_number/target/rls/debug/deps/num_bigint-4723b13c808c54b2.d: /Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/lib.rs /Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/macros.rs /Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/bigint.rs /Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/biguint.rs /Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/algorithms.rs /Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/monty.rs
+
+/Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/lib.rs:
+/Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/macros.rs:
+/Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/bigint.rs:
+/Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/biguint.rs:
+/Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/algorithms.rs:
+/Users/trevorschirra/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/monty.rs:
