@@ -1,0 +1,1 @@
+/Users/trevorschirra/Documents/GitHub/rosetta-code-contributions/rust_donut_dot_c/target/debug/rust_donut_dot_c: /Users/trevorschirra/Documents/GitHub/rosetta-code-contributions/rust_donut_dot_c/src/main.rs
