@@ -1,68 +1,6 @@
-/*
-#[allow(non_snake_case)]
-#[allow(clippy::many_single_char_names)]
-
-fn main() {
-    let mut A = 0.0f32;
-    let mut B = 0.0f32;
-    let sleep_time = std::time::Duration::from_millis(std::env::var("DONUT_SLEEP").unwrap_or("30".to_string()).parse::<u64>().unwrap_or(30));
-
-    print!("\x1b[2J"); // erase display
-
-    loop {
-        let mut z: [f32; 1760] = [0.0; 1760];
-        let mut b: [char; 1760] = [' '; 1760];
-
-        for j in (0..628).step_by(7) {
-            let j = j as f32 * 0.01;
-
-            for i in (0..628).step_by(7) {
-                let i: f32 = i as f32 * 0.01;
-
-                let c: f32 = i.sin();
-                let d: f32 = j.cos();
-                let e: f32 = A.sin();
-                let f: f32 = j.sin();
-                let g: f32 = A.cos();
-                let h: f32 = d + 2.0;
-                let D: f32 = 1.0 / (c * h * e + f * g + 5.0);
-                let l: f32 = i.cos();
-                let m: f32 = B.cos();
-                let n: f32 = B.sin();
-                let t: f32 = c * h * g - f * e;
-                let x: i32 = (40.0 + 30.0 * D * (l * h * m - t * n)) as i32;
-                let y: i32 = (12.0 + 15.0 * D * (l * h * n + t * m)) as i32;
-                let o: i32 = x + 80 * y;
-                let N: i32 =
-                    (8.0 * ((f * e - c * d * g) * m - c * d * e - f * g - l * d * n)) as i32;
-
-                if 22 > y && y > 0 && x > 0 && 80 > x && D > z[o as usize] {
-                    z[o as usize] = D;
-                    let idx: usize = if N > 0 { N as usize } else { 0 };
-                    b[o as usize] = b".,-~:;=!*#$@"[idx] as char;
-                }
-            }
-        }
-
-        print!("\x1b[H"); // reset cursor to home position
-
-        for (k, pixel) in b.iter().enumerate() {
-            if k % 80 != 0 {
-                print!("{}", pixel);
-            } else {
-                println!();
-            }
-
-            A += 0.00004;
-            B += 0.00002;
-        }
-
-        std::thread::sleep(sleep_time);
-    }
-}
-*/
-
 const ILLUMINATION: &str = &".,-~:;=!*#$@";
+//.,-~donut#$@
+//
 const THETA_SPACING: f64 = 0.07;
 const PHI_SPACING: f64 = 0.02;
 
@@ -70,8 +8,8 @@ const R1: f64 = 1.0;
 const R2: f64 = 2.0;
 const K2: f64 = 5.0;
 
-const SCREEN_WIDTH: usize = 40;
-const SCREEN_HEIGHT: usize  = 40;
+const SCREEN_WIDTH: usize = 100;
+const SCREEN_HEIGHT: usize  = 80;
 
 const K1 : f64 = SCREEN_WIDTH as f64 * K2* 3.0/(8.0*(R1+R2));
 
@@ -151,12 +89,12 @@ fn run_donut(mut a: f64, mut b: f64, sleep_time: std::time::Duration) {
         a+=THETA_SPACING;
         b+=PHI_SPACING;
         render_frame(a, b);
-        if a > 100.0 {
+        if a > 400.0 {
             a = 0.0;
             b = 0.0;
         }
         std::thread::sleep(sleep_time);
-
+        print!("\x1b[2J");
     }
 }
 fn main() {
