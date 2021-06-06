@@ -1,6 +1,6 @@
 const ILLUMINATION: &str = &".,-~:;=!*#$@";
-//.,-~donut#$@
-//
+//.,-~donut#$@  .,-~bagel#$@
+//.,-~:;=!*#$@
 const THETA_SPACING: f64 = 0.07;
 const PHI_SPACING: f64 = 0.02;
 
@@ -8,8 +8,8 @@ const R1: f64 = 1.0;
 const R2: f64 = 2.0;
 const K2: f64 = 5.0;
 
-const SCREEN_WIDTH: usize = 100;
-const SCREEN_HEIGHT: usize  = 80;
+const SCREEN_WIDTH: usize = 50;
+const SCREEN_HEIGHT: usize  = 50;
 
 const K1 : f64 = SCREEN_WIDTH as f64 * K2* 3.0/(8.0*(R1+R2));
 
